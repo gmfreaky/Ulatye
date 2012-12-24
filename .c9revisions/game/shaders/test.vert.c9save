@@ -1,0 +1,9 @@
+{"ts":1350499054494,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1350499060235,"patch":[[{"diffs":[[1,"attribute vec3 aVertexPosition;\r\n\r\n  uniform mat4 uMVMatrix;\r\n  uniform mat4 uPMatrix;\r\n\r\n  void main(void) {\r\n    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);\r\n  }"]],"start1":0,"start2":0,"length1":0,"length2":184}]],"length":184,"saved":false}
+{"ts":1350499062073,"patch":[[{"diffs":[[0,"ion;\r\n\r\n"],[-1,"  "],[0,"uniform "]],"start1":27,"start2":27,"length1":18,"length2":16}]],"length":182,"saved":false}
+{"ts":1350499062947,"patch":[[{"diffs":[[0,"ion;\r\n\r\n"],[-1,"u"],[0,"niform m"]],"start1":27,"start2":27,"length1":17,"length2":16}]],"length":181,"saved":false}
+{"ts":1350499064210,"patch":[[{"diffs":[[0,"ion;\r\n\r\n"],[1,"u"],[0,"niform m"]],"start1":27,"start2":27,"length1":16,"length2":17},{"diffs":[[0,"atrix;\r\n"],[-1,"  "],[0,"uniform "]],"start1":52,"start2":52,"length1":18,"length2":16}]],"length":180,"saved":false}
+{"ts":1350499066211,"patch":[[{"diffs":[[0,"rix;\r\n\r\n"],[-1,"  "],[0,"void mai"]],"start1":78,"start2":78,"length1":18,"length2":16}]],"length":178,"saved":false}
+{"ts":1350499067665,"patch":[[{"diffs":[[0," {\r\n"],[-1,"    "],[0,"gl_P"]],"start1":101,"start2":101,"length1":12,"length2":8}]],"length":174,"saved":false}
+{"ts":1350499070690,"patch":[[{"diffs":[[0,"oid) {\r\n"],[1,"    "],[0,"gl_Posit"]],"start1":97,"start2":97,"length1":16,"length2":20}]],"length":178,"saved":false}
+{"ts":1350499071678,"patch":[[{"diffs":[[0," 1.0);\r\n"],[-1,"  "],[0,"}"]],"start1":167,"start2":167,"length1":11,"length2":9}]],"length":176,"saved":false}
